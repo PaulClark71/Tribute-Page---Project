@@ -1,0 +1,150 @@
+body {
+    background-image: url("https://res.cloudinary.com/paul71/image/upload/v1531678595/Free%20Code%20Camp/k9Kgttk.png");
+      background-attachment: fixed;
+			background-repeat:no-repeat;
+}
+
+#title {
+	background-color:rgba(0, 0, 0, 0.8);
+	border-radius: 40px;
+	margin:10px;
+}
+
+h1{
+	font-family: 'Architects Daughter', cursive;
+	font-size:5em;
+	color:#fff;
+	margin:0px;
+	padding: 25px 0px 0px 40px;
+	line-height: 0.9em;
+}
+
+.row{
+    display: flex;
+    flex-basis:auto;
+    flex-wrap:nowrap;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius:40px;
+	margin:10px;
+}
+
+.column1, #img-div {
+    flex: 50%;
+    padding: 25px;
+}
+
+.row2{
+    display: flex;
+    flex-basis:auto;
+    flex-wrap:nowrap;
+	  background-color: rgba(0, 0, 0, 0.8);
+	  border-radius:40px;
+	  margin:10px;
+}
+
+#tribute-info{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	line-height: 1.7em;
+	color:#aaaaaa;
+	padding-left:16px;
+	letter-spacing: 0.04em;
+}
+
+#image {
+	display: block;
+	margin: 0 auto;
+	border-radius:40px;
+	max-width:80%;
+}
+
+#img-caption{
+	color:#fff;
+	display:block;
+	text-align:center;
+	margin:0px;
+	padding-top:10px;
+}
+
+.discography, .solo, .facts {
+    flex: 33.33;
+    padding: 20px 20px 0px 20px ;
+}
+
+#sub-text{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 23px;
+    color: #1e3b75;
+	margin:0;
+	padding: 0px 0px 20px 40px;
+}
+
+li{
+    color:#aaaaaa;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 23px;
+    color: #1e3b75;
+	padding: 25px 0px 0px 40px
+}
+
+ul li{
+	font-family: 'Montserrat', sans-serif;
+	padding:5px;
+	list-style-type: none;
+    font-size:15px;
+}
+
+#tribute-link {
+	color: green;
+}
+
+#credits {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+     #tribute-info {
+         font-size: 15px;
+     }
+}
+
+@media only screen and (max-width: 980px) {
+    .row {
+        flex-direction:column;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .row {
+        flex-direction:column;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #image {
+        margin-bottom:0px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .row2 {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size:3em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #sub-text {
+        font-size:16px;
+    }
+}
