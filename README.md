@@ -7,7 +7,7 @@ Build a CodePen.io app that is functionally similar to [this](https://codepen.io
 
 Fulfill 10 'User Stories' and get all tests to pass giving it my own personal style
 
-#### Built with
+### Built with
 - [HTML5](https://developer.mozilla.org/es/docs/HTML/HTML5)
 - [CSS3](https://developer.mozilla.org/es/docs/Web/CSS/CSS3)
 
